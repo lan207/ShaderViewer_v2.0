@@ -1,0 +1,5 @@
+0: {Position:{X:220 Y:150 Z:0} Color:{R:255 G:255 B:255 A:255} TextureCoordinate:{X:0 Y:0}}
+1: {Position:{X:580 Y:150 Z:0} Color:{R:255 G:255 B:255 A:255} TextureCoordinate:{X:1.171875 Y:0}}
+2: {Position:{X:580 Y:330 Z:0} Color:{R:255 G:255 B:255 A:255} TextureCoordinate:{X:1.171875 Y:1.171875}}
+3: {Position:{X:220 Y:330 Z:0} Color:{R:255 G:255 B:255 A:255} TextureCoordinate:{X:0 Y:1.171875}}
+nonZeroShown=4

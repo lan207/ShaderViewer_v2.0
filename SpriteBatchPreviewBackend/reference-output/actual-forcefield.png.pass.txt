@@ -1,0 +1,20 @@
+Microsoft.Xna.Framework.Graphics.EffectPass, Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553
+Microsoft.Xna.Framework.Graphics.EffectAnnotationCollection pAnnotations = Microsoft.Xna.Framework.Graphics.EffectAnnotationCollection
+Microsoft.Xna.Framework.Graphics.EffectTechnique _technique = Microsoft.Xna.Framework.Graphics.EffectTechnique
+ID3DXBaseEffect* pEffect = 0xE94C4A0
+System.SByte* _handle = 0xFEC8313B
+System.Int32 _index = 47
+System.String _name = ForceField
+Microsoft.Xna.Framework.Graphics.EffectStateFlags _stateFlags = None
+System.UInt32 _textureFlags = 0
+System.UInt32* pVertexShaderCode = 0x0
+System.UInt32* pPixelShaderCode = 0xE965FD8
+  word[0]=0xFFFF0200
+  word[1]=0x0030FFFE
+  word[2]=0x42415443
+  word[3]=0x0000001C
+  word[4]=0x0000008B
+  word[5]=0xFFFF0200
+  word[6]=0x00000002
+  word[7]=0x0000001C
+  bytecodeLength=976

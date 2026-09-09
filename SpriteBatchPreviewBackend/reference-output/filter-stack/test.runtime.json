@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "FilterLimit": 16,
+  "PriorityThreshold": 0,
+  "Filters": [
+    {
+      "Name": "Vortex",
+      "EffectPath": "D:\\Other\\ShaderViewer_v1.5\\SpriteBatchPreviewBackend\\reference-output\\filter-stack\\out\\reference-output\\filter-stack\\Terraria.FilterTower.native.xnb",
+      "EntryPoint": "FilterTower",
+      "Priority": 2,
+      "Active": true,
+      "IsHidden": false,
+      "Values": {
+        "Color": "float3(0.0, 0.7, 0.7)",
+        "SecondaryColor": "float3(1.0, 1.0, 1.0)",
+        "Opacity": "0.5",
+        "Intensity": "1.0",
+        "Progress": "0.0",
+        "Direction": "0.0, 1.0",
+        "TargetPosition": "400.0, 240.0",
+        "ImageOffset": "0.0, 0.0",
+        "ImageScale": "1.0, 1.0",
+        "GlobalOpacity": "1.0",
+        "ScreenPosition": "0.0, 0.0",
+        "Zoom": "1.0, 1.0"
+      },
+      "TexturePaths": [
+        "D:\\Other\\ShaderViewer_v1.5\\SpriteBatchPreviewBackend\\reference-output\\perlin.png",
+        "D:\\Other\\ShaderViewer_v1.5\\SpriteBatchPreviewBackend\\reference-output\\perlin.png",
+        "D:\\Other\\ShaderViewer_v1.5\\SpriteBatchPreviewBackend\\reference-output\\perlin.png",
+        "D:\\Other\\ShaderViewer_v1.5\\SpriteBatchPreviewBackend\\reference-output\\perlin.png"
+      ]
+    },
+    {
+      "Name": "Vortex second pass",
+      "EffectPath": "D:\\Other\\ShaderViewer_v1.5\\SpriteBatchPreviewBackend\\reference-output\\filter-stack\\out\\reference-output\\filter-stack\\Terraria.FilterTower.native.xnb",
+      "EntryPoint": "FilterTower",
+      "Priority": 3,
+      "Active": true,
+      "IsHidden": false,
+      "Values": {
+        "Color": "float3(0.7, 0.1, 0.7)",
+        "SecondaryColor": "float3(1, 1, 1)",
+        "Opacity": "0.5",
+        "Intensity": "1",
+        "Progress": "0",
+        "Direction": "0, 1",
+        "TargetPosition": "400, 240",
+        "ImageOffset": "0, 0",
+        "ImageScale": "1, 1",
+        "GlobalOpacity": "1",
+        "ScreenPosition": "0, 0",
+        "Zoom": "1, 1"
+      },
+      "TexturePaths": []
+    }
+  ]
+}

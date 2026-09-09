@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseAppHost>false</UseAppHost>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="SpriteBatchPreviewBackend\**" />
+    <EmbeddedResource Remove="SpriteBatchPreviewBackend\**" />
+    <None Remove="SpriteBatchPreviewBackend\**" />
+    <Page Remove="SpriteBatchPreviewBackend\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Terraria.FilterTower.fx" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

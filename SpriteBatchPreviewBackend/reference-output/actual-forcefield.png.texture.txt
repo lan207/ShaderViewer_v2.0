@@ -1,0 +1,5 @@
+Size=512x512
+AverageAlpha=255
+MinAlpha=255
+MaxAlpha=255
+ZeroAlpha=0
