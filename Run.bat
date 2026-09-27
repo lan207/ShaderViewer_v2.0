@@ -1,2 +1,2 @@
 cd /d %~dp0
-dotnet run ./App.xaml
+dotnet run --project ShaderViewer.csproj
